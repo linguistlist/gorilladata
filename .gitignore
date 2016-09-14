@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+*.swp
+*.bak
+.sass-cache
+.idea
+secret.py
+.project
+.pydevproject
