@@ -60,27 +60,27 @@
     <ListRecords metadataPrefix="olac">
         <oai:record>
             <oai:header>
-                <oai:identifier>oai:kayardild.lt.cs.mu.oz.au:01</oai:identifier>
-                <oai:datestamp>2004-07-06</oai:datestamp>
+                <oai:identifier>**identifier here**</oai:identifier>
+                <oai:datestamp>2016-09-15</oai:datestamp>
             </oai:header>
             <oai:metadata>
-                <olac:olac>
-                    <dc:title>A grammar of Kayardild. With comparative notes on Tangkic.</dc:title>
-                    <dc:creator>Evans, Nicholas D.</dc:creator>
-                    <dc:subject>Kayardild grammar</dc:subject>
-                    <dc:subject xsi:type="olac:language" olac:code="gyd"/>
-                    <dc:subject xsi:type="olac:linguistic-field" olac:code="syntax"/>
-                    <dc:subject xsi:type="olac:discourse-type" olac:code="narrative"/>
-                    <dc:language xsi:type="olac:language" olac:code="eng"/>
-                    <dc:description>Kayardild Grammar (ISBN 3110127954)</dc:description>
-                    <dc:publisher>Berlin - Mouton de Gruyter</dc:publisher>
-                    <dc:contributor xsi:type="olac:role" olac:code="author">Nicholas
-                        Evans</dc:contributor>
-                    <dc:format>hardcover, 837 pages</dc:format>
-                    <dc:relation>related to ISBN 0646119966</dc:relation>
-                    <dc:coverage>Australia</dc:coverage>
-                    <dc:type xsi:type="olac:linguistic-type" olac:code="language_description"/>
-                    <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+                <olac:olac xmlns:olac="http://www.language-archives.org/OLAC/1.1/"
+                    xmlns="http://purl.org/dc/elements/1.1/"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ 
+                    http://www.language-archives.org/OLAC/1.1/olac.xsd">
+                    <creator refine="researcher">Damir Cavar</creator>
+                    <creator refine="researcher">Malgosia Cavar</creator>
+                    <creator> Dov-Ber Kerler</creator>
+                    <creator refine="transcriber">Anya Quilitzsh</creator>
+                    <creator refine="transcriber">Avi Lang</creator>
+                    <creator refine="annotator">Clare Harshey</creator>
+                    <creator refine="annotator">William Shankman</creator>
+                    <creator refine="annotator">So Eun Ahn</creator>
+                    <creator refine="annotator">Inas Nassar</creator>
+                    <date>2016</date>
+                    <title>Yiddish Speech Corpus</title>
+                    <publisher>The LINGUIST List</publisher>
                 </olac:olac>
             </oai:metadata>
         </oai:record>
@@ -90,27 +90,7 @@
                 <oai:datestamp>2004-07-06</oai:datestamp>
             </oai:header>
             <oai:metadata>
-                <olac:olac>
-                    <dc:title>Kayardild dictionary and thesaurus : a vocabulary of the language of
-                        the Bentinck Islanders, North-West Queensland </dc:title>
-                    <dc:creator>Nicholas Evans</dc:creator>
-                    <dc:subject>Kayardild dictionary and thesaurus</dc:subject>
-                    <dc:subject xsi:type="olac:language" olac:code="gyd"/>
-                    <dc:description>Kayardild dictionary and thesaurus (ISBN 0646119966) </dc:description>
-                    <dc:publisher>Parkville, Vic., Australia. University of Melbourne, Dept. of
-                        Linguistics and Language Studies.</dc:publisher>
-                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Nicholas
-                        Evans</dc:contributor>
-                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Penny
-                        Johnson</dc:contributor>
-                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Marbuk
-                        Kohler</dc:contributor>
-                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Ken
-                        Hale</dc:contributor>
-                    <dc:format>format: xiv, 334 p. : ill. ; 24 cm</dc:format>
-                    <dc:relation>related to ISBN 3110127954</dc:relation>
-                    <dc:coverage>Australia</dc:coverage>
-                </olac:olac>
+                **insert resource here, see above**
             </oai:metadata>
         </oai:record>
     </ListRecords>

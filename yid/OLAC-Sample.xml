@@ -4,8 +4,16 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ 
     http://www.language-archives.org/OLAC/1.1/olac.xsd">
-    <creator>Bloomfield, Leonard</creator>
-    <date>1933</date>
-    <title>Language</title>
-    <publisher>New York: Holt</publisher>
+    <creator refine="researcher">Damir Cavar</creator>
+    <creator refine="researcher">Malgosia Cavar</creator>
+    <creator> Dov-Ber Kerler</creator>
+    <creator refine="transcriber">Anya Quilitzsh</creator>
+    <creator refine="transcriber">Avi Lang</creator>
+    <creator refine="annotator">Clare Harshey</creator>
+    <creator refine="annotator">William Shankman</creator>
+    <creator refine="annotator">So Eun Ahn</creator>
+    <creator refine="annotator">Inas Nassar</creator>
+    <date>2016</date>
+    <title>Yiddish Speech Corpus</title>
+    <publisher>The LINGUIST List</publisher>
 </olac:olac>
