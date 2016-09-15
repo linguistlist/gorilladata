@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olac:olac xmlns:olac="http://www.language-archives.org/OLAC/1.1/"
+    xmlns="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ 
+    http://www.language-archives.org/OLAC/1.1/olac.xsd">
+    <creator>Bloomfield, Leonard</creator>
+    <date>1933</date>
+    <title>Language</title>
+    <publisher>New York: Holt</publisher>
+</olac:olac>
