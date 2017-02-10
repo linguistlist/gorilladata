@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository xmlns="http://www.openarchives.org/OAI/2.0/static-repository"
+    xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+    xmlns:olac="http://www.language-archives.org/OLAC/1.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/static-repository
+    http://www.language-archives.org/OLAC/1.1/static-repository.xsd
+    http://www.language-archives.org/OLAC/1.1/
+    http://www.language-archives.org/OLAC/1.1/olac.xsd
+    http://purl.org/dc/elements/1.1/
+    http://dublincore.org/schemas/xmls/qdc/2006/01/06/dc.xsd
+    http://purl.org/dc/terms/
+    http://dublincore.org/schemas/xmls/qdc/2006/01/06/dcterms.xsd">
+    <Identify>
+        <oai:repositoryName>GORILLA Yiddish Speech Corpus 1</oai:repositoryName>
+        <oai:baseURL>http://gorilla.linguistlist.org/OLAC/1.1/static-repository.xml</oai:baseURL>
+        <oai:protocolVersion>2.0</oai:protocolVersion>
+        <oai:adminEmail>gorilla@linguistlist.org</oai:adminEmail>
+        <oai:earliestDatestamp>2016-10-18</oai:earliestDatestamp>
+        <oai:deletedRecord>no</oai:deletedRecord>
+        <oai:granularity>YYYY-MM-DD</oai:granularity>
+        <oai:description>
+            <oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier"
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier
+                http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+                <scheme>oai</scheme>
+                <repositoryIdentifier>linguistlist.org</repositoryIdentifier>
+                <delimiter>:</delimiter>
+                <sampleIdentifier>oai:linguistlist.org:YID_20160914_010_01</sampleIdentifier>
+            </oai-identifier>
+        </oai:description>
+        <oai:description>
+            <olac-archive type="institutional" currentAsOf="2016-10-18"
+                xmlns="http://www.language-archives.org/OLAC/1.1/olac-archive"
+                xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/olac-archive
+                http://www.language-archives.org/OLAC/1.1/olac-archive.xsd">
+                <archiveURL>http://gorilla.linguistlist.org/code/yid/</archiveURL>
+                <participant name="Damir Cavar" role="Compiler" email="damir@linguistlist.org"/>
+                <participant name="Malgorzata E. Cavar" role="Compiler"
+                    email="gosia@linguistlist.org"/>
+                <participant name="Clare Harshey" role="Compiler" email="clare@linguistlist.org"/>
+                <participant name="Lwin Moe" role="Compiler" email="lwin@linguistlist.org"/>
+                <institution>Indiana University, The LINGUIST List</institution>
+                <institutionURL>http://linguistlist.org/</institutionURL>
+                <shortLocation>Bloomington, Indiana, USA</shortLocation>
+                <location>Department of Linguistics, The LINGUIST List, Indiana University,
+                    111 N Bryan Ave, Bloomington, Indiana, USA</location>
+                <synopsis>The GORILLA Archive contains speech and language resources for various
+                    languages.
+                </synopsis>
+                <access>Access to web based content is open.
+                    Access to original materials is open.
+                </access>
+            </olac-archive>
+        </oai:description>
+    </Identify>
+    <ListMetadataFormats>
+        <oai:metadataFormat>
+            <oai:metadataPrefix>olac</oai:metadataPrefix>
+            <oai:schema>http://www.language-archives.org/OLAC/1.1/olac.xsd</oai:schema>
+            <oai:metadataNamespace>http://www.language-archives.org/OLAC/1.1/
+            </oai:metadataNamespace>
+        </oai:metadataFormat>
+    </ListMetadataFormats>
+    <ListRecords metadataPrefix="olac">
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_01</oai:identifier>
+                <oai:datestamp>2006-01-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_2006_005.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This recording was downloaded as an .mp3 from the Yiddish Book
+                        Center (http://www.yiddishbookcenter.org/), and is the first of three parts in the
+                        audiobook Oyf Di Felder Fun Treblinke. It was converted to .wav format,
+                        time-aligned, and annotated at LINGUIST List using ELAN (see related file
+                        YID_2006_005.eaf). This is part of a time-aligned speech corpus to train
+                        Forced Alignment tools and speech recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>Yiddish Book Center</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Sara
+                        Dresher</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="author">Rokhl
+                        Auerbakh</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare
+                        Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_02</dc:relation>
+                    <dc:coverage>Poland</dc:coverage>
+                    <dc:coverage>Canada</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_02</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_2006_005.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_2006_005.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>Yiddish Book Center</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_01</dc:relation>
+                    <dc:coverage>Poland</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_03</oai:identifier>
+                <oai:datestamp>2006-01-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_2006_007.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This recording was downloaded as an .mp3 from the Yiddish Book
+                        Center (http://www.yiddishbookcenter.org/), and is the third of three parts in the
+                        audiobook Oyf Di Felder Fun Treblinke. It was converted to .wav format,
+                        time-aligned, and annotated at LINGUIST List using ELAN (see related file
+                        YID_2006_007.eaf). This is part of a time-aligned speech corpus to train
+                        Forced Alignment tools and speech recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>Yiddish Book Center</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Sara
+                        Dresher</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="author">Rokhl
+                        Auerbakh</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare
+                        Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_04</dc:relation>
+                    <dc:coverage>Poland</dc:coverage>
+                    <dc:coverage>Canada</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_04</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_2006_007.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_2006_007.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>Yiddish Book Center</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_03</dc:relation>
+                    <dc:coverage>Poland</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_05</oai:identifier>
+                <oai:datestamp>1992-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_199207_008.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This recording was recorded for the Yiddish Book Center (http://www.yiddishbookcenter.org), and downloaded as an .mp3 from The Internet Archive (https://archive.org/details/276I.L.PeretzHakhnosesKaleAContributionForAWedding.ReadByLeibTencer). It was converted to .wav format and annotated at LINGUIST List using ELAN (see related file YID_199207_008.eaf). This is part of a time-aligned speech corpus to train
+                        Forced Alignment tools and speech recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>Yiddish Book Center</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Leib Tencer</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="author">Isaac Leib Peretz</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_06</dc:relation>
+                    <dc:coverage>Canada</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_06</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_199207_008.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_199207_008.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>Yiddish Book Center</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">Will 
+                        Shankman</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_05</dc:relation>
+                    <dc:coverage>USA</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_07</oai:identifier>
+                <oai:datestamp>2002-07-14</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020714_392.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 392. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20020714_392.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Mikhail Aronovich Kupershmidt</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dovid Katz</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_08</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_08</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020714_392.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20020714_392.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">Will 
+                        Shankman</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_07</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_09</oai:identifier>
+                <oai:datestamp>2002-07-17</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020717_687.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 687. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20020717_687.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Sofia Moiseevna Palatnikova</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_10</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_10</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020717_687.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20020717_687.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">Clare
+                        Harshey</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_09</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_11</oai:identifier>
+                <oai:datestamp>2002-07-18</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_368.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 368. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20020718_368.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Evgeniia Abramova Kozak</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dovid Katz</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_12</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_12</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_368.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20020718_368.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun 
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_11</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_13</oai:identifier>
+                <oai:datestamp>2002-07-18</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_371.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 371. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20020718_371.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Elizaveta Konstantinovna Bershadskaya</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_14</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_14</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_371.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20020718_371.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">Will 
+                        Shankman</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_13</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_15</oai:identifier>
+                <oai:datestamp>2002-07-18</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_373.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 373. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20020718_373.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Anatolii Petrovich Shor</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_16</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_16</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_373.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20020718_373.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun 
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_15</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_17</oai:identifier>
+                <oai:datestamp>2002-07-18</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_374.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 374. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20020718_374.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Anatolii Petrovich Shor</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_18</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_18</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20020718_374.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20020718_374.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun 
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_17</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_19</oai:identifier>
+                <oai:datestamp>2005-06-25</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20050625_397.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 397. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20050625_397.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Mikhail Aronovich Kupershmidt</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dovid Katz</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_20</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_20</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20050625_397.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20050625_397.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun 
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_19</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_21</oai:identifier>
+                <oai:datestamp>2005-06-26</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20050626_375.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 375. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20050626_375.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Sara Yankelevna Gvinter</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dovid Katz</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_22</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_22</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20050626_375.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20050626_375.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun 
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_21</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_23</oai:identifier>
+                <oai:datestamp>2005-06-27</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20050627_396.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of Traditional Music, MDV 396. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file YID_20050627_396.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Mikhail Aronovich Kupershmidt</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dovid Katz</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_24</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_24</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20050627_396.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20050627_396.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">Inas
+                        Nassar</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_23</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_25</oai:identifier>
+                <oai:datestamp>2008-05-14</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_377.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of 
+                        Traditional Music, MDV 377. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file
+                        YID_20080514_377.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Nukhim Moiseevich Gvinter</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Moisei Lemster </dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_26</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_26</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_377.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20080514_377.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun 
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_25</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_27</oai:identifier>
+                <oai:datestamp>2008-05-14</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_378.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of 
+                        Traditional Music, MDV 378. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file
+                        YID_20080514_378.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Nukhim Moiseevich Gvinter</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Moisei Lemster </dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_28</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_28</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_378.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20080514_378.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">Will
+                        Shankman</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_27</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_29</oai:identifier>
+                <oai:datestamp>2008-05-14</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_379.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of 
+                        Traditional Music, MDV 379. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file
+                        YID_20080514_379.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Brukhe Moisevna Feldman</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Moisei Lemster </dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_30</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_30</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_379.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20080514_379.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_29</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_31</oai:identifier>
+                <oai:datestamp>2008-05-14</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_381.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of 
+                        Traditional Music, MDV 381. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file
+                        YID_20080514_381.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Seymon Moiseyevich Sklyarskiy</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Jeffrey Veidlinger</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Moisei Lemster </dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_32</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_32</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080514_381.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20080514_381.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_31</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_33</oai:identifier>
+                <oai:datestamp>2008-05-24</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080524_399.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of 
+                        Traditional Music, MDV 399. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file
+                        YID_20080524_399.eaf).</dc:description>
+                    <dc:publisher>Archives of Historical and Ethnographic Yiddish Memories</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Anya Yefimovna Kelmenson</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Moisei Lemster </dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_34</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_34</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080524_399.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20080524_399.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">Will
+                        Shankman</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_33</dc:relation>
+                    <dc:coverage>Ukraine</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_35</oai:identifier>
+                <oai:datestamp>2008-08-24</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080824_004.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This recording was created for LibriVox's Multilingual Poetry Collection 009 
+                        (https://librivox.org/multilingual-poetry-collection-vol-009/). It was downloaded, converted to 
+                        .wav format, and annotated at LINGUIST List using ELAN (see related file YID_20080824_004.eaf).</dc:description>
+                    <dc:publisher>LibriVox</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Joseph Finkberg</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="author">David Edelstadt</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_36</dc:relation>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_36</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20080824_004.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20080824_004.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_35</dc:relation>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_37</oai:identifier>
+                <oai:datestamp>2012-06-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20120604_000.wav</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Sound</dc:type>
+                    <dc:description>This audio file was converted to .wav from the AHEYM .mp4 video recording housed at the Archives of 
+                        Traditional Music. The audio was transcribed and annotated using ELAN at LINGUIST List (see related file
+                        YID_20120604_000.eaf).</dc:description>
+                    <dc:publisher> Archives of Historical and Ethnographic Yiddish Memories </dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="speaker">Golda Salamon</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="interviewer">Dov-Ber Kerler</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E. Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Clare Harshey</dc:contributor>
+                    <dc:format>audio/wav</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_38</dc:relation>
+                    <dc:coverage>Romania</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>        
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:linguistlist.org:YID_20160914_010_38</oai:identifier>
+                <oai:datestamp>2016-07-01</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <olac:olac>
+                    <dc:title>YID_20120604_000.eaf</dc:title>
+                    <dc:creator/>
+                    <dc:subject>Yiddish Speech Corpus</dc:subject>
+                    <dc:subject xsi:type="olac:language">Yiddish</dc:subject>
+                    <dc:subject xsi:type="olac:language" olac:code="yid"/>
+                    <dc:subject xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+                    <dc:type>Dataset</dc:type>
+                    <dc:description>This is an xml file containing annotation of YID_20120604_000.wav.
+                        The annotation was generated using the ELAN Linguistic Annotator Version
+                        4.9.4 (https://tla.mpi.nl/tools/tla-tools/elan/). This is part of a
+                        time-aligned speech corpus to train Forced Alignment tools and speech
+                        recognition systems for Yiddish. </dc:description>
+                    <dc:publisher>LINGUIST List</dc:publisher>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Damir
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Lwin
+                        Moe</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="researcher">Malgorzata E.
+                        Cavar</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Clare
+                        Harshey</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Avi
+                        Lang</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="transcriber">Anya
+                        Quilitzsch</dc:contributor>
+                    <dc:contributor xsi:type="olac:role" olac:code="annotator">So Eun
+                        Ahn</dc:contributor>
+                    <dc:format>text/xml</dc:format>
+                    <dc:relation>oai:linguistlist.org:YID_20160914_010_37</dc:relation>
+                    <dc:coverage>Romania</dc:coverage>
+                </olac:olac>
+            </oai:metadata>
+        </oai:record>
+    </ListRecords>
+</Repository>
